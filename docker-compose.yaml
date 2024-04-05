@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  blog:
+    image: squidfunk/mkdocs-material
+    command: serve --dev-addr=0.0.0.0:1234
+    volumes:
+      - ./:/docs:rw
+    ports:
+      - 1234:1234
+    restart: always

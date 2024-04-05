@@ -1,0 +1,24 @@
+site_name: My Blog
+
+theme:
+  name: material
+  icon:
+    logo: material/bookshelf
+  font:
+    text: DM Sans
+    code: DM Mono
+  palette:
+    scheme: custom
+
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
