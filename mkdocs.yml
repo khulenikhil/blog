@@ -2,8 +2,8 @@ site_name: My Blog
 
 theme:
   name: material
-  icon:
-    logo: material/bookshelf
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
   font:
     text: DM Sans
     code: DM Mono
