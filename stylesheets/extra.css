@@ -43,9 +43,9 @@
 
 [data-md-color-scheme="custom"] {
     --md-default-fg-color: white;
-    --md-default-fg-color--light: rgb(173, 173, 173);
+    --md-default-fg-color--light: rgb(175, 175, 175);
     --md-default-fg-color--lighter: lightgrey;
-    --md-default-fg-color--lightest: rgb(189, 189, 189);
+    --md-default-fg-color--lightest: rgb(58, 58, 58);
     --md-default-bg-color: rgb(39, 39, 39);
     --md-default-bg-color--light: rgb(53, 53, 53);
     --md-default-bg-color--lighter: rgb(117, 117, 117);
@@ -93,5 +93,5 @@
 }
 
 .md-grid {
-    max-width: 95%;
+    max-width: 90%;
 }
